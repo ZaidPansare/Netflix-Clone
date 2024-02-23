@@ -1,0 +1,32 @@
+.sec{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    justify-content: space-around;
+    gap: 10px;
+}
+.main-caro{
+    margin-top: 60px;
+    display: flex; flex-direction: column; justify-content: center; align-items: center;
+}
+.desc{
+    position: absolute;
+    bottom: 15px;
+    width: 70%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.589);
+    border-radius: 10px;
+    color: white;
+    /* left: 100px; */
+}
+
+@media screen and (max-width:590px){
+    .desc{
+        font-size: 10px;
+        bottom: 55px;
+    }
+  
+    .main img{
+        margin-top: 20px;
+    }
+}

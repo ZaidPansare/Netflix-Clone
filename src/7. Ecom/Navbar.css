@@ -1,0 +1,163 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+nav{
+    height: auto;
+}
+
+.navecom{
+    background-color: black;
+    height: auto;
+    padding: 10px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.Artbtn{
+    display: flex;
+    justify-content: center;
+}
+
+.navdiv input{
+    width: 500px;
+    height: 40px;
+    border-radius: 30px;
+}
+.navdiv img{
+    background-color: black;
+    height: 45px;
+    width: 150px;
+    margin-top: 20px;
+}
+
+.navart{
+    height: 100%;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.navecom input{
+    outline: none;
+    text-align: center;
+    border: none;
+    border-bottom: 1px solid white;
+    padding: 5px;
+}
+
+.Artbtn button{
+    padding: 10px 20px;
+    font-size: 15px;
+    background-color: rgb(253, 207, 2);
+    font-weight: bold;
+}
+
+.parent-nav{
+    position: relative;
+    width: 100%;
+}
+
+/* Your Dropdown.css */
+
+.dropdown {
+    /* position: relative; */
+    display: inline-block;
+  }
+  
+  .dropbtn {
+    padding: 10px 20px;
+    background-color: #f1f1f1;
+    border: none;
+    cursor: pointer;
+    position: relative;
+  }
+  
+  .dropdown-content {
+    position: absolute;
+    border-radius: 5px;
+    /* top: 100%; */
+    left: 62%;
+    transition: 0.2s;
+    /* transform: translateY(100%); */
+    /* transform: translateX(-50%); */
+    background-color:  rgba(253, 207, 2, 0.975);
+    width: 150px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    display: block;
+  }
+  
+ 
+  .dropdown-content a{
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {
+    background-color: rgb(216, 177, 5); border-radius: 5px;
+  }
+  
+
+@media screen and (max-width:650px) {
+    .navecom{
+        width: 100%;
+        height: 350px;
+        justify-content: space-between;
+    }
+    .navart{
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+    .navdiv input{
+        width: 250px;
+    }
+    .Artbtn button{
+
+        height: 40px;
+        font-size: 10px;
+        width: 80px;
+        padding: 2px 2px;
+    }
+    .dropdown-content {
+        position: absolute;
+        /* top: 50%; */
+        left: 80%;
+        font-size: 10px;
+        right: 0%;
+        width: 70px;
+      }
+      .dropdown-content a{
+        padding: 5px 5px;
+      }
+    #dropbtn{
+        height: 39px;
+        width: 80px;
+    }
+    
+}
+@media screen and (min-width:650px) and (max-width:900px ){
+    .navecom{
+        width: 100%;
+        height: 350px;
+        justify-content: space-between;
+    }
+    .dropdown-content {
+        left: 75%;
+        min-width: 150px;
+      }
+
+}

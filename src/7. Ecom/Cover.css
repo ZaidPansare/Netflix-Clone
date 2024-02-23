@@ -1,0 +1,104 @@
+#head-cov{
+    background: url(./Images/tata.jpg);
+    width: 100%;
+    height: 500px;  
+    background-size: cover;
+    background-position: center;
+}
+body{
+    background-color: snow;
+}
+.cover-nav{
+    background-color: rgba(0, 0, 0, 0.591);
+    display: flex;
+    color: white;
+    justify-content: space-around;
+    align-items: center;
+    height: 120px;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 30px;
+}
+.phone{
+    overflow: hidden;
+}
+.phone img{
+    width: 100%;
+    object-fit: center;
+    object-position: bottom;
+    
+}
+.ear img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.cover-foot{
+    background-color: black;
+    color: goldenrod;
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.cover-foot a{
+    text-decoration: none;
+    color: goldenrod;
+}
+.middle{
+    text-align: center;
+    width: 60% ;
+}
+.left{
+    display: flex;
+    justify-content: space-around;
+    width: 18%;
+}
+.right{
+    display: flex;
+    justify-content: space-around;
+    width: 10% ;
+}
+.caro{
+    width: 100%;
+    padding: 0px 20px;
+}
+.caro::-webkit-scrollbar{
+    display: none;
+}
+.caro img{
+    height: 400px;
+    width: 300px;
+    object-fit: cover;
+}
+#a{width: 260px;}
+#b{width: 275px;}
+h1{
+    font-size: 50px;
+}
+
+
+@media screen and (max-width:765px){
+    h1{
+        font-size: 20px;
+    }
+    .caro img{
+        height: 200px;
+        width: 250px;
+    }
+    #a{width: 140px;}
+    #b{width: 135px;}
+    .cover-foot{
+        flex-wrap: wrap; height: auto; font-size: 10px; padding: 10px;
+    }
+    .middle{
+        width: 400px;
+    }
+    .left{width: 150px;}
+    .right{width: 100px;}
+
+}

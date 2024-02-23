@@ -1,0 +1,61 @@
+table{
+    /* border: 1px solid black; */
+    padding: 20px;
+    width: 90%;
+}
+
+.main{
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+tbody img{
+    height: 70px;
+    width: 70px;
+}
+
+@media screen and (max-width:730px){
+    table{
+        font-size: 10px;
+        width: 300px;
+    }
+    #abtbtn button{
+        font-size: 10px;
+    }
+    #del button{
+        font-size: 10px;
+    }
+    #gpay{
+        font-size: 10px;
+        width: 20px;
+    }
+}
+@media screen and (max-width:425px){
+
+    table{
+        font-size: 7px;
+        width: 350px;
+        padding: 0%;
+        padding-top: 10px;
+        /* margin-left: 15px; */
+    }
+    #abtbtnimg{
+        width: 20px;
+        height: 20px;
+    }
+    #abtbtn button{
+        font-size: 5px;
+    }
+    #del button{
+        font-size: 5px;
+    }
+    #gpay{
+        font-size: 10px;
+        width: 20px;
+    }
+    tbody img{
+        height: 40px;
+        width: 40px;
+    }
+}
